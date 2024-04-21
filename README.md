@@ -12,3 +12,4 @@ Tokopedia Clone is portfolio app i build to learn and practice the Swift program
 - Carousel UICollectionView.
 
 _** Tokopedia-Clone-Demo-Video**_
+-download mp4 video in the file above
