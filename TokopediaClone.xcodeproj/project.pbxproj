@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA07FBAF2B8F2CF4002FD1F4 /* Notifikasi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07FBAE2B8F2CF4002FD1F4 /* Notifikasi.swift */; };
+		FA31A50A2B906DC000CEE73E /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31A5092B906DC000CEE73E /* Inbox.swift */; };
+		FA31A50C2B90734A00CEE73E /* Keranjang.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31A50B2B90734A00CEE73E /* Keranjang.swift */; };
+		FA31A50E2B90AEBE00CEE73E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31A50D2B90AEBE00CEE73E /* Menu.swift */; };
+		FA31A5112B91CF4600CEE73E /* ReusableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31A5102B91CF4600CEE73E /* ReusableButton.swift */; };
+		FA3364012B6FB26000C348EC /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3364002B6FB26000C348EC /* TabController.swift */; };
+		FA3364032B6FB2CF00C348EC /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3364022B6FB2CF00C348EC /* Feed.swift */; };
+		FA3364052B6FB2E100C348EC /* OfficialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3364042B6FB2E100C348EC /* OfficialStore.swift */; };
+		FA3364072B6FB2F000C348EC /* WishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3364062B6FB2F000C348EC /* WishList.swift */; };
+		FA3364092B6FB30300C348EC /* Transaksi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3364082B6FB30300C348EC /* Transaksi.swift */; };
+		FA3ED6102B6F84F90089DD1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3ED60F2B6F84F90089DD1C /* AppDelegate.swift */; };
+		FA3ED6122B6F84F90089DD1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3ED6112B6F84F90089DD1C /* SceneDelegate.swift */; };
+		FA3ED6142B6F84F90089DD1C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3ED6132B6F84F90089DD1C /* Home.swift */; };
+		FA3ED6192B6F85020089DD1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3ED6182B6F85020089DD1C /* Assets.xcassets */; };
+		FA428DB62B72139E007238EA /* HomeHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA428DB52B72139E007238EA /* HomeHeaderCell.swift */; };
+		FA439AC82BD3A2E200D08048 /* HomeSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA439AC72BD3A2E200D08048 /* HomeSubView.swift */; };
+		FA439ACA2BD3D0D300D08048 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA439AC92BD3D0D300D08048 /* Login.swift */; };
+		FA64B0732B91E3E200CF465C /* ControllerReusableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64B0722B91E3E200CF465C /* ControllerReusableButton.swift */; };
+		FA65C3C22BBBD028000EC053 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65C3C12BBBD028000EC053 /* CarouselView.swift */; };
+		FAEC7F6F2BC934FE00C4CE2D /* CarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC7F6E2BC934FE00C4CE2D /* CarouselCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA07FBAE2B8F2CF4002FD1F4 /* Notifikasi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifikasi.swift; sourceTree = "<group>"; };
+		FA31A5092B906DC000CEE73E /* Inbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inbox.swift; sourceTree = "<group>"; };
+		FA31A50B2B90734A00CEE73E /* Keranjang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keranjang.swift; sourceTree = "<group>"; };
+		FA31A50D2B90AEBE00CEE73E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		FA31A5102B91CF4600CEE73E /* ReusableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableButton.swift; sourceTree = "<group>"; };
+		FA3364002B6FB26000C348EC /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		FA3364022B6FB2CF00C348EC /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		FA3364042B6FB2E100C348EC /* OfficialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialStore.swift; sourceTree = "<group>"; };
+		FA3364062B6FB2F000C348EC /* WishList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishList.swift; sourceTree = "<group>"; };
+		FA3364082B6FB30300C348EC /* Transaksi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaksi.swift; sourceTree = "<group>"; };
+		FA3ED60C2B6F84F90089DD1C /* TokopediaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokopediaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3ED60F2B6F84F90089DD1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA3ED6112B6F84F90089DD1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA3ED6132B6F84F90089DD1C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FA3ED6182B6F85020089DD1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA3ED61D2B6F85020089DD1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA428DB52B72139E007238EA /* HomeHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderCell.swift; sourceTree = "<group>"; };
+		FA439AC72BD3A2E200D08048 /* HomeSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSubView.swift; sourceTree = "<group>"; };
+		FA439AC92BD3D0D300D08048 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		FA64B0722B91E3E200CF465C /* ControllerReusableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerReusableButton.swift; sourceTree = "<group>"; };
+		FA65C3C12BBBD028000EC053 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		FAEC7F6E2BC934FE00C4CE2D /* CarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3ED6092B6F84F90089DD1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA31A50F2B90B18600CEE73E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA3ED6132B6F84F90089DD1C /* Home.swift */,
+				FA31A5092B906DC000CEE73E /* Inbox.swift */,
+				FA07FBAE2B8F2CF4002FD1F4 /* Notifikasi.swift */,
+				FA31A50B2B90734A00CEE73E /* Keranjang.swift */,
+				FA31A50D2B90AEBE00CEE73E /* Menu.swift */,
+				FA65C3C12BBBD028000EC053 /* CarouselView.swift */,
+				FAEC7F6E2BC934FE00C4CE2D /* CarouselCell.swift */,
+				FA439AC72BD3A2E200D08048 /* HomeSubView.swift */,
+				FA439AC92BD3D0D300D08048 /* Login.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA3ED6032B6F84F90089DD1C = {
+			isa = PBXGroup;
+			children = (
+				FA3ED60E2B6F84F90089DD1C /* TokopediaClone */,
+				FA3ED60D2B6F84F90089DD1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3ED60D2B6F84F90089DD1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3ED60C2B6F84F90089DD1C /* TokopediaClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3ED60E2B6F84F90089DD1C /* TokopediaClone */ = {
+			isa = PBXGroup;
+			children = (
+				FA31A50F2B90B18600CEE73E /* Home */,
+				FA3ED60F2B6F84F90089DD1C /* AppDelegate.swift */,
+				FA3ED6112B6F84F90089DD1C /* SceneDelegate.swift */,
+				FA3364022B6FB2CF00C348EC /* Feed.swift */,
+				FA3364042B6FB2E100C348EC /* OfficialStore.swift */,
+				FA3364062B6FB2F000C348EC /* WishList.swift */,
+				FA3364082B6FB30300C348EC /* Transaksi.swift */,
+				FA3ED6182B6F85020089DD1C /* Assets.xcassets */,
+				FA3ED61D2B6F85020089DD1C /* Info.plist */,
+				FA3364002B6FB26000C348EC /* TabController.swift */,
+				FA428DB52B72139E007238EA /* HomeHeaderCell.swift */,
+				FA31A5102B91CF4600CEE73E /* ReusableButton.swift */,
+				FA64B0722B91E3E200CF465C /* ControllerReusableButton.swift */,
+			);
+			path = TokopediaClone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3ED60B2B6F84F90089DD1C /* TokopediaClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3ED6202B6F85020089DD1C /* Build configuration list for PBXNativeTarget "TokopediaClone" */;
+			buildPhases = (
+				FA3ED6082B6F84F90089DD1C /* Sources */,
+				FA3ED6092B6F84F90089DD1C /* Frameworks */,
+				FA3ED60A2B6F84F90089DD1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokopediaClone;
+			productName = TokopediaClone;
+			productReference = FA3ED60C2B6F84F90089DD1C /* TokopediaClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3ED6042B6F84F90089DD1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FA3ED60B2B6F84F90089DD1C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FA3ED6072B6F84F90089DD1C /* Build configuration list for PBXProject "TokopediaClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA3ED6032B6F84F90089DD1C;
+			productRefGroup = FA3ED60D2B6F84F90089DD1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3ED60B2B6F84F90089DD1C /* TokopediaClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3ED60A2B6F84F90089DD1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3ED6192B6F85020089DD1C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3ED6082B6F84F90089DD1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA439AC82BD3A2E200D08048 /* HomeSubView.swift in Sources */,
+				FA3ED6142B6F84F90089DD1C /* Home.swift in Sources */,
+				FA3364032B6FB2CF00C348EC /* Feed.swift in Sources */,
+				FA31A5112B91CF4600CEE73E /* ReusableButton.swift in Sources */,
+				FA3364092B6FB30300C348EC /* Transaksi.swift in Sources */,
+				FA31A50C2B90734A00CEE73E /* Keranjang.swift in Sources */,
+				FAEC7F6F2BC934FE00C4CE2D /* CarouselCell.swift in Sources */,
+				FA3364012B6FB26000C348EC /* TabController.swift in Sources */,
+				FA65C3C22BBBD028000EC053 /* CarouselView.swift in Sources */,
+				FA3ED6102B6F84F90089DD1C /* AppDelegate.swift in Sources */,
+				FA31A50A2B906DC000CEE73E /* Inbox.swift in Sources */,
+				FA3364052B6FB2E100C348EC /* OfficialStore.swift in Sources */,
+				FA64B0732B91E3E200CF465C /* ControllerReusableButton.swift in Sources */,
+				FA439ACA2BD3D0D300D08048 /* Login.swift in Sources */,
+				FA3ED6122B6F84F90089DD1C /* SceneDelegate.swift in Sources */,
+				FA31A50E2B90AEBE00CEE73E /* Menu.swift in Sources */,
+				FA428DB62B72139E007238EA /* HomeHeaderCell.swift in Sources */,
+				FA07FBAF2B8F2CF4002FD1F4 /* Notifikasi.swift in Sources */,
+				FA3364072B6FB2F000C348EC /* WishList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA3ED61E2B6F85020089DD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA3ED61F2B6F85020089DD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA3ED6212B6F85020089DD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY2ZUW5Q3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TokopediaClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suryacenter.TokopediaClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA3ED6222B6F85020089DD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY2ZUW5Q3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TokopediaClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suryacenter.TokopediaClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3ED6072B6F84F90089DD1C /* Build configuration list for PBXProject "TokopediaClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3ED61E2B6F85020089DD1C /* Debug */,
+				FA3ED61F2B6F85020089DD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3ED6202B6F85020089DD1C /* Build configuration list for PBXNativeTarget "TokopediaClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3ED6212B6F85020089DD1C /* Debug */,
+				FA3ED6222B6F85020089DD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA3ED6042B6F84F90089DD1C /* Project object */;
+}
